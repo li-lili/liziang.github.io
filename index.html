@@ -3,7 +3,7 @@
 <head>  
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>李子昂个人网站</title>  
+  <title>李子昂的个人作品集</title>  
   <style>  
     body {  
       font-family: Arial, sans-serif;  
@@ -40,20 +40,38 @@
     li {  
       margin-bottom: 10px;  
     }  
+    .project {  
+      display: flex;  
+      flex-direction: column;  
+      align-items: center;  
+    }  
+    .project img {  
+      width: 100%;  
+      height: auto;  
+    }  
   </style>  
 </head>  
 <body>  
   <header>  
-    <h1>欢迎来到我的网页</h1>  
+    <h1>李子昂</h1>  
   </header>  
   <main>  
     <h2>关于我</h2>  
     <p>这里是一些关于我的信息。</p>  
     <h2>我的项目</h2>  
     <ul>  
-      <li>项目1</li>  
-      <li>项目2</li>  
-      <li>项目3</li>  
+      <li class="project">  
+        <img src="project1.jpg" alt="Project 1">  
+        <p>项目1的描述</p>  
+      </li>  
+      <li class="project">  
+        <img src="project2.jpg" alt="Project 2">  
+        <p>项目2的描述</p>  
+      </li>  
+      <li class="project">  
+        <img src="project3.jpg" alt="Project 3">  
+        <p>项目3的描述</p>  
+      </li>  
     </ul>  
   </main>  
   <footer>  
